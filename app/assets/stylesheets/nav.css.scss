@@ -3,6 +3,7 @@
 .navigation-wrapper {
   background: transparent;
   margin-top: -15px;
+
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -15,12 +16,12 @@
 .navigation-wrapper li {
   display: inline-block;
   height: 45px;
-  padding: 80px 35px 0px 35px;
+  padding: 100px 35px 0px 35px;
   font-size: 70px;
 }
 
 .navigation-wrapper ul {
-    margin-bottom: 0;
+    margin-bottom: 15px;
 }
 
 .navigation-wrapper li:hover {
