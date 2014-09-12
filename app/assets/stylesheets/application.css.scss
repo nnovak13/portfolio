@@ -1,0 +1,129 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-36 { font-size: 36px; }
+.size-48 { font-size: 48px; }
+.size-60 { font-size: 60px; }
+.size-72 { font-size: 72px; }
+
+@import 'foundation-icons';
+
+body{
+  background-color: white;
+  color:black;
+  font-family: 'Lato', sans-serif;
+}
+
+.profpic{
+  width: 275px;
+  height: auto;
+  border-radius: 100px;
+  margin-top: 25px;
+}
+
+.w-embed {
+  margin-top: 25px;
+
+}
+
+.hello{
+  height: 450px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.hello .hello-content{
+  margin-top: 150px;
+}
+.hello .hello-content .hi{
+  color: white;
+  font-family:inherit;
+  font-size: 70px;
+}
+
+.stack {
+  color: #756E86;
+}
+
+.about{
+  margin-top: 200px;
+}
+.section-head{
+  text-align: center;
+  width:100%;
+  background-color: #1B3244;
+  color: white;
+}
+
+.welcome{
+  height: 200px;
+  width: 49%;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.contact{
+  height: 200px;
+  width: 49%;
+  text-align: center;
+  margin-top: 30px;
+}
+i{
+  color:#00AA9A;
+  padding:15px;
+}
+.exp{
+  text-align: center;
+  height: 150px;
+}
+.exp p{
+  font-size: 18px;
+}
+
+.work-head{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.work{
+  height: 850px;
+  width: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.projpic{
+  height: auto;
+  width: 700px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.projtitle{
+  font-size: 40px;
+  color:#00AA9A;
+}
+.work .projtitle:hover{
+  color: #1B3244;
+}
+.work p{
+  margin-top: 15px;
+}

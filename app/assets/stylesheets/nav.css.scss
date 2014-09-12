@@ -1,0 +1,42 @@
+// navigation styles
+
+.navigation-wrapper {
+  background: transparent;
+  margin-top: -15px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navigation-wrapper a {
+  color: #96D9E0;
+}
+
+.navigation-wrapper li {
+  display: inline-block;
+  height: 45px;
+  padding: 40px 35px 0px 35px;
+  font-size: 45px;
+}
+
+.navigation-wrapper ul {
+    margin-bottom: 0;
+}
+
+.navigation-wrapper li:hover {
+  background: #BCEAC6;
+}
+
+.navigation-wrapper a:hover {
+  color: #E5BE44;
+}
+
+.navigation-wrapper .title {
+  position: absolute;
+  text-indent: 30px;
+  padding-top: 20px;
+}
+
+.buttons-wrapper {
+  text-align: center;
+}
