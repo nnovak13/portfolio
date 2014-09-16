@@ -14,7 +14,7 @@ $( document ).ready(function() {
     }, 1200);
   });
   // on nav up arrow button click animate to hello div
-  $('.hello-nav').click(function(event){
+  $('.last_arrow').click(function(event){
     event.preventDefault();
     $('html, body').animate({
         scrollTop: $('.hello').offset().top

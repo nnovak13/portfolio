@@ -61,20 +61,23 @@ body{
   font-family:inherit;
   font-size: 90px;
 }
-
+.last_arrow{
+  float: left;
+  margin-left: -100px;
+}
 .stack {
   color: #756E86;
   font-size: 80px;
 }
 
 .about{
-  margin-top: 310px;
+  margin-top: 320px;
 }
 
 .section-head{
   text-align: center;
   width:100%;
-  background-color: #1B3244;
+  background-color: #E52000;
   color: white;
 }
 
@@ -92,7 +95,7 @@ body{
   margin-top: 30px;
 }
 i{
-  color:#00AA9A;
+  color:#E52000;
   padding:15px;
 }
 .exp{
